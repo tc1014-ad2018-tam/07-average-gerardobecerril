@@ -21,7 +21,7 @@ int main() {
         scanf("%lf", &n); // Receives the user's input.
 
         sum += n; // Adds the latest input value to the sum variable.
-        count += 1; // Ads one to the count variable, since there's a new loop, thus a new number input.
+        count++; // Ads one to the count variable, since there's a new loop, thus a new number input.
 
     } while (n != 0); // The code will run as long as the input is not 0.
 
