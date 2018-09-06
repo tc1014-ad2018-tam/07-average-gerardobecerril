@@ -11,14 +11,14 @@
 int main() {
 
     // Variables for storing the user's input, the sum of these's values, as well as their amount.
-    int n, sum = 0, count = 0;
-    double average;
+    double n, sum = 0, average;
+    int count = 0;
 
     // Runs the code inside at least once.
     do {
 
         printf("Enter an integer: "); // Asks for a first number.
-        scanf("%d", &n); // Receives the user's input.
+        scanf("%lf", &n); // Receives the user's input.
 
         sum += n; // Adds the latest input value to the sum variable.
         count += 1; // Ads one to the count variable, since there's a new loop, thus a new number input.
