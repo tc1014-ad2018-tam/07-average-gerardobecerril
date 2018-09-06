@@ -12,6 +12,7 @@ int main() {
 
     // Variables for storing the user's input, the sum of these's values, as well as their amount.
     int n, sum = 0, count = 0;
+    double average;
 
     // Runs the code inside at least once.
     do {
@@ -25,8 +26,8 @@ int main() {
     } while (n != 0); // The code will run as long as the input is not 0.
 
     count -= 1; // Takes one away from count, since that's the value of 0.
-    sum /= count; // Divides the sum of the numbers between the amount of these to get the average.
-    printf("The average of the %d numbers is: %d.", count, sum); // Tells the user the average.
+    average = sum / count; // Divides the sum of the numbers between the amount of these to get the average.
+    printf("The average of the %d numbers is: %lf.", count, average); // Tells the user the average.
 
     return 0;
 
